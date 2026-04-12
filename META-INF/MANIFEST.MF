@@ -1,8 +1,8 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: CI_CD
-Bundle-SymbolicName: CI_CD
-Bundle-Version: 1.0.3
+Bundle-Name: SAP CI CD
+Bundle-SymbolicName: SAP_CI_CD; singleton:=true
+Bundle-Version: 1.0.1
 SAP-BundleType: IntegrationFlow
 SAP-NodeType: IFLMAP
 SAP-RuntimeProfile: iflmap
@@ -28,6 +28,6 @@ Import-Package: com.sap.esb.application.services.cxf.interceptor,com.sap
  el.spi,com.sap.esb.webservice.audit.log,com.sap.esb.camel.endpoint.conf
  igurator.api,com.sap.esb.camel.jdbc.idempotency.reorg,javax.sql,org.apa
  che.camel.processor.idempotent.jdbc,org.osgi.service.blueprint
-Origin-Bundle-Name: CI_CD
-Origin-Bundle-SymbolicName: CI_CD
+Origin-Bundle-Name: SAP CI CD
+Origin-Bundle-SymbolicName: SAP_CI_CD
 
